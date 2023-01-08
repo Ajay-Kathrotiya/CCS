@@ -1,0 +1,44 @@
+h1 {
+    color: darkblue;
+    background-color: coral;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: rgb(165, 165, 4) underline ;
+    letter-spacing: 10px;
+    font-size: 80px;
+    font-family: monospace;
+    
+}
+
+h2 {
+    color: rgb(123, 147, 3);
+    background-color: rgb(202, 16, 168);
+    text-align: center;
+    text-decoration: blue line-through double;
+    font-family: fantasy;
+}
+
+h3 {
+    color: darkgreen;
+    text-align: center;
+    background-color: yellow;
+    text-decoration: underline wavy;
+}
+
+p {
+    color: rgb(245, 10, 10);
+    background-color: rgb(21, 255, 0);
+    text-align: left;
+    line-height: 2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color : aqua;
+}
