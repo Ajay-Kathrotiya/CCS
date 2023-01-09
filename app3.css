@@ -8,7 +8,7 @@ h2 {
 }
 
 body {
-    background-color: #a1c64b;
+    background-color: #b185c1;
 }
 
 #search {
@@ -17,7 +17,7 @@ body {
 
 button {
     background-color: #7B2869;
-    font-size: 20px;
+    font-size: 50px;
 
 }
 
@@ -51,8 +51,10 @@ button {
 }
 
 span a {
-    color: darkgoldenrod;
+    color: rgb(234, 9, 9);
     background-color: aqua;
+    font-weight: 900;
+
 }
 
 h2+button {
@@ -60,10 +62,15 @@ h2+button {
     color: rgb(1, 1, 45);
 }
 
-div > li {
-    color: red;
-    background-color: blue;
+footer > a {
+    color: #060005;
+    background-color: darkgreen;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
 }
+
 
 input[type="text"] {
     width: 300px;
@@ -83,3 +90,28 @@ input + button {
     background-color: darkblue;
 }
 
+button:hover{
+    background-color: yellow;
+}
+
+input:hover{
+    background-color: darkred;
+}
+
+button:active{
+    background-color: rgb(219, 11, 212);
+}
+
+h2::first-letter{
+    color: rgb(245, 3, 132);
+    font-size: 30px;
+}
+
+p::first-line{
+    color: blue;
+    background-color: rgb(172, 97, 7);
+}
+
+p::selection{
+    background-color: yellow;
+}
