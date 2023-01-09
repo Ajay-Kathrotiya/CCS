@@ -1,5 +1,5 @@
 h1{
-    width: 220px;
+    
     padding-left: 50px;
     padding: 20px;
     background-color: darkgreen;
@@ -7,7 +7,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: unset;
     color: bisque;
-    margin-left: 33%;
+    text-align: center;
 }
 .div1{
     width: 300px;
@@ -17,8 +17,7 @@ h1{
     padding: 5px;
     background-color: yellow;
     border-radius: 20px;
-    padding-right: 100px;
-    margin-left: 30%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -31,7 +30,7 @@ button{
     padding-top: 20px;
     padding-right: 30px;
     padding-bottom: 20px;
-    margin-left: 35%;
+    
 
 }
 
