@@ -78,3 +78,8 @@ input[type="password"]{
     color: rgb(13, 13, 2);
     border: red;
 }
+
+input + button {
+    background-color: darkblue;
+}
+
