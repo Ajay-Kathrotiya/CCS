@@ -1,0 +1,60 @@
+#sec1{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+
+#rgba{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(200,150,50,.7);
+}
+
+#opacity{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(200,150,50);
+    opacity: 0.7;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#mid{
+    background-color: red;
+
+}
+
+#static #mid{
+    position: static;
+}
+
+#relative #mid{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+#absolute #mid{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+#absolute{
+    
+    position: relative;
+}
+
+#fixed #mid{
+    position: fixed;
+    top: 0;
+    left: 600px;
+}
