@@ -1,0 +1,24 @@
+body{
+    font-family: 'Rowdies', cursive;
+    background-color: aqua;
+}
+
+
+section{
+    width: 80%;
+    height: 800px;
+    background-image: url(https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZXxlbnwwfHwwfHw%3D&w=1000&q=80);
+    margin: 0 auto;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 200;
+    color: rgb(203, 219, 29);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: bisque;
+}
+
