@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+    transition: 3s;
+    margin: 0 auto;
+}
+
+.circle:hover {
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px 0;
+    transition: margin-left 3s;
+
+}
+
+section:hover div {
+    background-color: blue;
+    margin-left: 500px;
+
+}
+
+div:nth-of-type(1) {
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+div:nth-of-type(2) {
+    transition-timing-function: ease-in;
+}
+
+div:nth-of-type(3) {
+    transition-timing-function: ease-in-out;
+}
+
+div:nth-of-type(4) {
+    transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.h11 {
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
+    padding: 5px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: green solid 5px;
+    color: rgb(213, 9, 149);
+
+}
+
+h1:nth-of-type(2) {
+    background-color: aqua;
+    transform: rotate(20deg);
+    transform-origin: top right;
+}
+
+h1:nth-of-type(3) {
+    background-color: darkblue;
+    transform: rotateY(30deg);
+}
+
+h1:nth-of-type(6) {
+    background-color: brown;
+    transform: skew(30deg, 20deg);
+}
+
+h1:nth-of-type(9){
+    transform: matrix(1, 2, 3, 4, 5, 6);
+    background-color: darkslategrey;
+}
+
+h1:nth-of-type(10){
+    background-color: tomato;
+    transform: rotate(91deg) scale(1.9);
+}
