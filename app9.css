@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    font-family: 'Rubik Storm', cursive;
+    color: cornflowerblue;
+
+     background-color: brown;
+}
+
+
+#container{
+    width: 90%;
+    height: 500px;
+    background-color: bisque;
+    margin: 0 auto;
+    border: 5px solid rgb(91, 52, 4);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+    
+
+}
+
+div{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-size: 4em;
+}
